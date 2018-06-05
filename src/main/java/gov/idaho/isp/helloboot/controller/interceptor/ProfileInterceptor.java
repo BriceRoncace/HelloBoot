@@ -1,4 +1,4 @@
-package gov.idaho.isp.helloboot.interceptor;
+package gov.idaho.isp.helloboot.controller.interceptor;
 
 import java.util.Arrays;
 import javax.servlet.http.HttpServletRequest;

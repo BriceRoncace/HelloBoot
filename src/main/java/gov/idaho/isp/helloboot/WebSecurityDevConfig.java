@@ -24,8 +24,8 @@ public class WebSecurityDevConfig extends WebSecurityConfigurerAdapter {
       .and().exceptionHandling().accessDeniedHandler(getAccessDeniedHandler());
 
     http.headers().frameOptions().sameOrigin();
-      http.csrf().ignoringAntMatchers("/h2-console/**");
-      http.authorizeRequests().antMatchers("/h2-console/**").permitAll();
+    http.csrf().ignoringAntMatchers("/h2-console/**");
+    http.authorizeRequests().antMatchers("/h2-console/**").permitAll();
   }
 
   @Override

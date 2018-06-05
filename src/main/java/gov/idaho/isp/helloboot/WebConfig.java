@@ -1,7 +1,7 @@
 package gov.idaho.isp.helloboot;
 
-import gov.idaho.isp.helloboot.interceptor.ProfileInterceptor;
-import gov.idaho.isp.helloboot.interceptor.UserInterceptor;
+import gov.idaho.isp.helloboot.controller.interceptor.ProfileInterceptor;
+import gov.idaho.isp.helloboot.controller.interceptor.UserInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
