@@ -12,6 +12,7 @@
   <artifactId>HelloBoot</artifactId>
   <version>0.1</version>
   <packaging>jar</packaging>
+  <description>Publicly runnable sample Spring Boot 2 application.</description>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
